@@ -1,1 +1,1 @@
-# Endpoint_Analytics_Proactive_Remediation_BIOS_settings
+# Endpoint Analytics Proactive Remediation: Manage BIOS settings
