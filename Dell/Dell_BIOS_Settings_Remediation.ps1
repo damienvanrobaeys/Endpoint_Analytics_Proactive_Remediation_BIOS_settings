@@ -23,11 +23,8 @@ Function Get-DellBIOSProvider
 			Install-Module DellBIOSProvider -ErrorAction SilentlyContinue
 			Write_Log -Message_Type "INFO" -Message "DellBIOSProvider has been installed"  			
 		}
-	Else
-		{
-			Import-Module DellBIOSProvider -ErrorAction SilentlyContinue
-			Write_Log -Message_Type "INFO" -Message "DellBIOSProvider has been imported"  			
-		}
+		Import-Module DellBIOSProvider -ErrorAction SilentlyContinue
+		Write_Log -Message_Type "INFO" -Message "DellBIOSProvider has been imported"  			
 }
 
 Get-DellBIOSProvider 	
